@@ -1,0 +1,9 @@
+.heading
+{
+    color: red;
+}
+
+#head5:hover
+{
+    background-color: blueviolet;
+}

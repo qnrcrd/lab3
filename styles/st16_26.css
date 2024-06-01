@@ -1,0 +1,74 @@
+h1 /*17*/
+{
+    color: red;
+}
+
+th, td{
+    border: 0.2em solid black;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(226, 43, 165);
+    background-color:rgb(22, 238, 184);
+}
+
+p /* 18 */
+{
+    font-family: Arial;
+}
+
+.shadow /*19*/
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 150, 150);
+    box-shadow: 5px 5px 10px;
+}
+
+.redblink /*21*/
+{
+    animation: blink 1s infinite;
+}
+
+@keyframes blink
+{
+    0%{color: red;}
+    50%{color: transparent;}
+    100%{color: red;}
+}
+
+.padded /*22*/
+{
+    padding: 60px 20px 10px 50px; /* up, right, down, left */
+    /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;*/
+    background-color: rgb(120, 209, 209);
+    width: 100px;
+    height: 100px;
+}
+
+a:hover /*23*/
+{
+    color: aqua;
+}
+
+.imgborder /*24*/
+{
+    border: thick solid black;
+}
+
+.ulich /*25*/
+{
+    list-style-type: square;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.tsk26 /*26*/
+{
+    color: aliceblue;
+    background-color: rgb(84, 54, 192);
+    width: 100px;
+    height: 100px;
+}
